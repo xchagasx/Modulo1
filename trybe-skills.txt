@@ -2,3 +2,5 @@ unix
 bash
 git
 github
+Fundamentos
+Lógica
