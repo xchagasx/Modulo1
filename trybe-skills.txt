@@ -4,3 +4,5 @@ git
 github
 Fundamentos
 Lógica
+Hard Skills
+Soft Skills
