@@ -6,3 +6,7 @@ Fundamentos
 Lógica
 Hard Skills
 Soft Skills
+HTML
+CSS
+JAVA-SCRIPT
+LOGICA DE PROGRAMACAO
