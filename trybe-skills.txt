@@ -6,3 +6,5 @@ Fundamentos
 Lógica
 Hard Skills
 Soft Skills
+AutoGestao
+Planejamento
