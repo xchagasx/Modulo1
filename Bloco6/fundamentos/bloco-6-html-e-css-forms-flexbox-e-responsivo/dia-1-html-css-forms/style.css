@@ -2,19 +2,28 @@
     margin: 0;
     padding: 0; 
     box-sizing: border-box;
+    
+    align-items: center;
 }
 h1 {
     text-align: center;
 }
-#sectionForm #formulario{
-    position: relative;
-    display: block;    
-}
 .formBox {
-    position: absolute;
+    position: relative;
+    display: block;
+    text-align: center;
+    
     display: block;
     padding: 5%;
     margin-left: 0%;
+    background-color: rgb(200, 200, 200);   
+}
+.formBox fieldset {
+    background-color: rgb(220, 220, 220);
+    border: 1px solid black;
+    border-radius: 2%;
+    padding: 2%;
+    box-shadow: 10px 10px 10px 5px;
 }
 
 
