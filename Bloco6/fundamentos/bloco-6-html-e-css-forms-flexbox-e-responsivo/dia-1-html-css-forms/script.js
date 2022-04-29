@@ -23,18 +23,16 @@ function habilit() {
   }
   boxConc2.addEventListener('change', enable);
 }
-function dateValid() {
-var field = document.getElementById('datepicker');
-var picker = new Pikaday({
-    onSelect: function() {
-        field.value = picker.toString();
-    }
-});
-field.parentNode.insertBefore(picker.el, field.nextSibling);
+
+function cValid(){
+  const name = document.querySelector('#name');
+  const email = document.querySelector('#e-mail');
+  name = input.length.value;
+  alert(name);
 }
 
-window.onload = function() {
-prevente();
-habilit();
-dateValid();
-};
+//window.onload = function() {
+//prevente();
+//habilit();
+//cValid();
+//};
