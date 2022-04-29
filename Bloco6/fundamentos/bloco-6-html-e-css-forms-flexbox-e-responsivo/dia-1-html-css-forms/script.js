@@ -23,8 +23,18 @@ function habilit() {
   }
   boxConc2.addEventListener('change', enable);
 }
+function dateValid() {
+var field = document.getElementById('datepicker');
+var picker = new Pikaday({
+    onSelect: function() {
+        field.value = picker.toString();
+    }
+});
+field.parentNode.insertBefore(picker.el, field.nextSibling);
+}
 
 window.onload = function() {
 prevente();
 habilit();
+dateValid();
 };
