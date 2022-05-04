@@ -12,27 +12,28 @@ function prevente() {
 }
 
 function habilit() {
-  const btn = document.querySelector('#send');
+  const btnSend = document.querySelector('#send');
   const boxConc2 = document.querySelector("#conc2");
   function enable() {
     if (boxConc2.checked) {
-      btn.disabled = false;
+      btnSend.disabled = false;
     } else {
-      btn.disabled = true;
+      btnSend.disabled = true;
     }
   }
   boxConc2.addEventListener('change', enable);
 }
 
 function cValid(){
-  const name = document.querySelector('#name');
-  const email = document.querySelector('#e-mail');
-  name = input.length.value;
+  const name = document.getElementById('name');
+  const email = document.getElementById('e-mail');
+  //name = input.length.value;
   alert(name);
+  console.log('l');
 }
 
-//window.onload = function() {
+window.onload = function() {
 //prevente();
-//habilit();
-//cValid();
-//};
+habilit();
+cValid();
+};

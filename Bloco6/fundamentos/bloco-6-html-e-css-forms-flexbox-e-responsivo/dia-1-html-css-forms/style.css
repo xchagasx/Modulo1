@@ -1,7 +1,0 @@
-@import './node_modules/pikaday/css/pikaday.css';
-body{
-    background-color:aquamarine;
-}
-#date{
-    margin-top: 20px;
-}
